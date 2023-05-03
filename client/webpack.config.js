@@ -22,10 +22,10 @@ module.exports = () => {
         inject: true
       }),
       new WebpackPwaManifest({
-        name: 'My Progressive Web App',
-        short_name: 'MyPWA',
-        description: 'My Progressive Web App',
-        background_color: '#ffffff',
+        name: 'Just Another Text Editor',
+        short_name: 'JATE',
+        description: 'Take notes with JavaScript syntax highlighting!',
+        background_color: '#225ca3',
         crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
       }),
       new InjectManifest({
