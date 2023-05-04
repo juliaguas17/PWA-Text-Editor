@@ -26,6 +26,7 @@ module.exports = () => {
         short_name: 'JATE',
         description: 'Take notes with JavaScript syntax highlighting!',
         background_color: '#225ca3',
+        theme_color: '#225ca3',
         crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
       }),
       new InjectManifest({
@@ -33,12 +34,24 @@ module.exports = () => {
       })
     ],
     module: {
-      // TODO: Add CSS loaders and babel to webpack.
+      // CSS loaders
       rules: [
         {
           test: /\.css$/i,
-          use: ["style-loader", "css-loader"],
-        }, 
+          use: ['style-loader', 'css-loader'],
+        },
+        {
+          test: /\.m?js$/,
+          exclude: /node_modules/,
+          // We use babel-loader in order to use ES6.
+          use: {
+            loader: 'babel-loader',
+            options: {
+              presets: ['@babel/preset-env'],
+              plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
+            },
+          },
+        },
       ],
     },
   };
