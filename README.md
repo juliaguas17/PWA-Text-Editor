@@ -6,4 +6,4 @@ This single-page app is a text editor that runs in the web browser. It meets the
 ## Walkthrough
 
 ## Credits
-Thank you to my classmate Rebecca (https://github.com/rebeccalehew) for showing me how to properly incorporate IndexedDB into this project.
+Thank you to my classmate Rebecca (https://github.com/rebeccalehew) for showing me how to create a proper manifest file for this project.

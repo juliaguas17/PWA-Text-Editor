@@ -34,6 +34,7 @@ module.exports = () => {
         name: 'Just Another Text Editor',
         short_name: 'J.A.T.E.',
         description: 'Takes notes with JavaScript syntax highlighting!',
+        crossorigin: 'use-credentials', // can be null, use credentials or anonymous
         start_url: './',
         publicPath: './',
         filename: 'manifest.js',
@@ -44,7 +45,7 @@ module.exports = () => {
           {
             src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
-            purpose: 'any maskable',
+            purpose: 'any',
             destination: path.join('assets', 'icons'),
           }
         ]
