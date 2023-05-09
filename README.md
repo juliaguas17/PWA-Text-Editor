@@ -5,8 +5,8 @@ This single-page app is a text editor that runs in the web browser. It meets the
 
 ## Installation
 1. Download source code and open the Develop folder in your terminal.
-2. In the command line, run: ```md npm i ``` to install node modules.
-3. Run ```md npm run start ``` to open the text editor.
+2. In the command line, run: ```npm i ``` to install node modules.
+3. Run ```npm run start ``` to open the text editor.
 
 ## Images
 ![Home](Images/app-home.png)
