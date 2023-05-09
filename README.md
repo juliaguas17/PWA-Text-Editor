@@ -9,9 +9,9 @@ This single-page app is a text editor that runs in the web browser. It meets the
 3. Run ```npm run start ``` to open the text editor.
 
 ## Images
-![Home](Images/app-home.png)
-![Manifest](Images/app-manifest.png)
-![Service Workers](Images/app-sw.png)
+![Home](images/app-home.png)
+![Manifest](images/app-manifest.png)
+![Service Workers](images/app-sw.png)
 
 ## Heroku Link
 https://pwa-text-editor-050923.herokuapp.com/
