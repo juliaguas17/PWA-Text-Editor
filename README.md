@@ -14,6 +14,7 @@ This single-page app is a text editor that runs in the web browser. It meets the
 ![Service Workers](Images/app-sw.png)
 
 ## Heroku Link
+https://pwa-text-editor-050923.herokuapp.com/
 
 ## Contributions
 Thank you to my classmate Rebecca (https://github.com/rebeccalehew) for showing me how to create a proper manifest file for this project.
