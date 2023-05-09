@@ -11,7 +11,7 @@ This single-page app is a text editor that runs in the web browser. It meets the
 ## Images
 ![Home](images/app-home.png)
 ![Manifest](images/app-manifest.png)
-![Servie Workers](images/app-sw.png)
+![Service Workers](images/app-sw.png)
 
 ## Heroku Link
 https://pwa-text-editor-050923.herokuapp.com/
